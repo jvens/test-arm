@@ -3,5 +3,7 @@ compiler: gcc
 
 addons:
   apt:
+    sources:
+    - sourceline: 'ppa:team-gcc-arm-embedded/ppa'
     packages:
     - gcc-arm-none-eabi

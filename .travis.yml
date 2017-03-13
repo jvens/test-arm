@@ -9,3 +9,4 @@ addons:
     - gcc-arm-none-eabi
 dist: trusty
 sudo: required
+script: make && make test
